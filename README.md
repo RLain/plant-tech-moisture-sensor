@@ -32,6 +32,18 @@ To monitor the Arduino whilst plugged in $ `arduino-cli monitor -p /dev/cu.usbse
 - [.INO File Extension](https://fileinfo.com/extension/ino)
 - [coding-arduino-programming-language](https://emeritus.org/blog/coding-arduino-programming-language)
 
+## Learnings
+
+1. `Turning the Sensor on allows the Arduino to get a reading`. This is controlled by `digitalWrite(SENSOR, HIGH);`. We can
+   then get a reading by using a read command e.g. Analog reading = `analogValue = analogRead(ANA);` with ANA being the Arduino port defined.
+   Once we have the reading, then we can turn the sensor off using `digitalWrite(SENSOR, LOW);` [Source](https://emeritus.org/blog/coding-arduino-programming-language)
+
+2. VCC vs GND:
+
+- VCC (Voltage Common Collector) is the power supply of a device . Ground is the the reference point against which the VCC is compared.
+  - `VCC`. (electronics, also VCC) Common Collector Voltage; the positive supply voltage for an integrated circuit containing bipolar junction transistors.
+  - What Does Ground (`GND`) Mean? Ground, in the context of electronics, is the reference point for all signals or a common path in an electrical circuit where all of the voltages can be measured from. This is also called the common drain since the voltage measurement along it is zero.
+
 ## Supplementary reading
 
 1. [Soil-Moisture-Measurement-With-Arduino](https://www.instructables.com/Soil-Moisture-Measurement-With-Arduino)
