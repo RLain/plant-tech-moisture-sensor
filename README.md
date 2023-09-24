@@ -1,5 +1,18 @@
 # plant-tech-moisture-sensor
 
+## Kit
+
+- HKD ESP8266 NODEMCU WIFI BOARD
+- 15cm Female to Female jumper leads
+- Mini DC 3-6V Water pump
+- TIP31C Transistor
+- Moisture Sensor and relay ([FC-50](https://www.mantech.co.za/datasheets/products/FC-50_BG.pdf))
+
+### Places to buy in Cape Town
+
+- https://www.communica.co.za/
+- https://www.fort777.co.za/ (Yebo Electronics)
+
 ## Commands
 
 1. Create a sketch: $ `arduino-cli sketch new nameOfSketch`
@@ -15,3 +28,14 @@ To monitor the Arduino whilst plugged in $ `arduino-cli monitor -p /dev/cu.usbse
 - [Arduino CLI installation](https://arduino.github.io/arduino-cli/0.33/installation/)
 - [Arduino YAML prep setup](https://github.com/OfferZen-Community/plant_tech_ams/blob/main/prep-arduino-cli.md)
 - [Arduino CLI Youtube guidance](https://www.youtube.com/watch?v=8LPSjucQoso&ab_channel=datasith)
+
+## Supplementary reading
+
+1. [Soil-Moisture-Measurement-With-Arduino](https://www.instructables.com/Soil-Moisture-Measurement-With-Arduino)
+
+There is a mapping for the level of moisture. Sensors are mainly mapped within 0 to 1023 values. So for different level of moisture, the mapping of the moisture sensor is given below-
+
+- If the sensor value is 1000 or more than that then the sensor is not in the soil or sensor is disconnected.
+- If the sensor value is more than 600 but less than 1000 then the soil is dry.
+- If the sensor value is 370 to 600 then the soil is humid.
+- If the sensor value is less than 370 then the sensor in the water.
