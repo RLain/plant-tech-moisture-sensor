@@ -30,6 +30,7 @@ To monitor the Arduino whilst plugged in $ `arduino-cli monitor -p /dev/cu.usbse
 - [Arduino YAML prep setup](https://github.com/OfferZen-Community/plant_tech_ams/blob/main/prep-arduino-cli.md)
 - [Arduino CLI Youtube guidance](https://www.youtube.com/watch?v=8LPSjucQoso&ab_channel=datasith)
 - [.INO File Extension](https://fileinfo.com/extension/ino)
+- [coding-arduino-programming-language](https://emeritus.org/blog/coding-arduino-programming-language)
 
 ## Supplementary reading
 
