@@ -6,7 +6,7 @@
 - 15cm Female to Female jumper leads
 - Mini DC 3-6V Water pump
 - TIP31C Transistor
-- Moisture Sensor and relay ([FC-50](https://www.mantech.co.za/datasheets/products/FC-50_BG.pdf))
+- Moisture Sensor and relay ([FC-50](https://www.mantech.co.za/datasheets/products/FC-50_BG.pdf)) ⚠️ Just realiseed I bought the wrong thing....need this https://www.communica.co.za/products/bmt-soil-moisture-sensor-kit
 
 ### Places to buy in Cape Town
 
