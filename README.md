@@ -46,9 +46,9 @@ To monitor the Arduino whilst plugged in $ `arduino-cli monitor -p /dev/cu.usbse
 
 3. `Why the analogRead() was printing a value despite no A port being used` = "If the analog input pin is not connected to anything, the value returned by analogRead() will fluctuate based on a number of factors (e.g. the values of the other analog inputs, how close your hand is to the board, etc.)." [Source](https://www.arduino.cc/reference/en/language/functions/analog-io/analogread/)
 
-4. `NO/NC/C`: https://www.circuitbasics.com/setting-up-a-5v-relay-on-the-arduino/. See the `fc-50_circuit_diagram.png` in this repo for positions of the connections. The `fc-50_CMU-circuit_diagram.png` is the relay I purchased [JQF-3ff-S-Z](https://www.communica.co.za/products/cmu-moisture-sensor-with-relay?variant=40204733055049) however if you compare the images they are the same.
+4. `NO/NC/C`: https://www.circuitbasics.com/setting-up-a-5v-relay-on-the-arduino/. See the `fc-50_circuit_diagram.png` in this repo for positions of the connections. The `fc-50_CMU-circuit_diagram.png` is the relay module I purchased [JQF-3ff-S-Z](https://www.communica.co.za/products/cmu-moisture-sensor-with-relay?variant=40204733055049) however if you compare the images they are the same.
 
-💡 When holding the relay so the writing is legible, the left hand connections are top-to-bottom order: NO -> COMM -> NC.
+💡 When holding the relay module so the writing is legible, the left hand connections are top-to-bottom order: NO -> COMM -> NC.
 
 ## Supplementary reading
 
