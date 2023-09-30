@@ -1,12 +1,24 @@
 # 🌱 plant-tech-moisture-sensor
 
+## Repo structure
+
+- _BlinkESP_: Testing the arduino
+- _MoistureSensor_: Testing the moisture sensor and LM393 Detecting board.
+- _Pump_: Testing the pump connections
+- _PlantWateringSystem_: The set up for everything together:
+  - Ardunio on/off
+  - Moisture sensor reading
+  - Pump on/off
+
 ## Kit
 
 - HKD ESP8266 NODEMCU WIFI BOARD
 - 15cm Female to Female jumper leads
 - Mini DC 3-6V Water pump
 - TIP31C Transistor
-- Moisture Sensor and relay ([FC-50](https://www.mantech.co.za/datasheets/products/FC-50_BG.pdf)) ⚠️ Just realiseed I bought the wrong thing....need this https://www.communica.co.za/products/bmt-soil-moisture-sensor-kit
+- Moisture Sensor and relay ([LM393](https://www.communica.co.za/products/bmt-soil-moisture-sensor-kit))
+
+ℹ️ Don't buy this! -> Moisture Sensor and relay ([FC-50](https://www.mantech.co.za/datasheets/products/FC-50_BG.pdf)) See Archived dir.
 
 ### Places to buy in Cape Town
 
@@ -45,10 +57,6 @@ To monitor the Arduino whilst plugged in $ `arduino-cli monitor -p /dev/cu.usbse
 - What Does Ground (`GND`) Mean? Ground, in the context of electronics, is the reference point for all signals or a common path in an electrical circuit where all of the voltages can be measured from. This is also called the common drain since the voltage measurement along it is zero.
 
 3. `Why the analogRead() was printing a value despite no A port being used` = "If the analog input pin is not connected to anything, the value returned by analogRead() will fluctuate based on a number of factors (e.g. the values of the other analog inputs, how close your hand is to the board, etc.)." [Source](https://www.arduino.cc/reference/en/language/functions/analog-io/analogread/)
-
-4. `NO/NC/C`: https://www.circuitbasics.com/setting-up-a-5v-relay-on-the-arduino/. See the `fc-50_circuit_diagram.png` in this repo for positions of the connections. The `fc-50_CMU-circuit_diagram.png` is the relay module I purchased [JQF-3ff-S-Z](https://www.communica.co.za/products/cmu-moisture-sensor-with-relay?variant=40204733055049) however if you compare the images they are the same.
-
-💡 When holding the relay module so the writing is legible, the left hand connections are top-to-bottom order: NO -> COMM -> NC.
 
 ## Supplementary reading
 
