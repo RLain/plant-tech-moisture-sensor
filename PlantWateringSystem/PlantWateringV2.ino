@@ -1,3 +1,6 @@
+
+//V2 included logic to get the moisture sensor returning correct conditional path. Taken from [here](https://www.instructables.com/Soil-Moisture-Measurement-With-Arduino)
+
 /* Change these values based on your calibration values */
 #define soilWet 500   // Define max value we consider soil 'wet'
 #define soilDry 600   // Define min value we consider soil 'dry'

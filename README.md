@@ -28,8 +28,8 @@
 ## Commands
 
 1. Create a sketch: $ `arduino-cli sketch new nameOfSketch`
-2. Compile the sketch: $ `arduino-cli compile --fqbn esp8266:esp8266:nodemcuv2 nameOfSketch`
-3. Add the script in the new `.ino` file.
+2. Add the script in the new `.ino` file.
+3. Compile the sketch: $ `arduino-cli compile --fqbn esp8266:esp8266:nodemcuv2 nameOfSketch`
 4. Locate the port of the Arduino (make sure plugged in): $ `arduino-cli board list`
 5. Update compiled code onto the Arduino: $ `arduino-cli upload -p /dev/cu.usbserial-0001 --fqbn esp8266:esp8266:nodemcuv2 nameOfSketch`
 
