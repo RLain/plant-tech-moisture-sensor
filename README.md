@@ -5,12 +5,12 @@
 - _BlinkESP_: Testing the arduino
 - _MoistureSensor_: Testing the moisture sensor and LM393 Detecting board.
 - _Pump_: Testing the pump connections
-- _PlantWateringSystem_: The set up for everything together:
+- _PlantWateringSystem_: The set up for everything together with numerous iterations to figure out timing considerations:
   - Ardunio on/off
   - Moisture sensor reading
   - Pump on/off
 
-## Kit
+## Kits
 
 - HKD ESP8266 NODEMCU WIFI BOARD
 - 15cm Female to Female jumper leads
