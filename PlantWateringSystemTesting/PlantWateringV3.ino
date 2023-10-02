@@ -1,3 +1,5 @@
+// V3 included the addition of the pump logic which started working! But then had timing issues meaning the pump stayed on.
+
 /* Change these values based on your calibration values */
 #define soilWet 400   // Define max value we consider soil 'wet'
 #define soilDry 600   // Define min value we consider soil 'dry'

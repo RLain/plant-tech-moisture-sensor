@@ -11,7 +11,7 @@
 
 // Define timing variables
 unsigned long checkInterval=10000;
-unsigned long nextCheckAt = 0; //Starts at 0.
+unsigned long nextCheckAt = 5000; //Starts at 5000 otherwise when you plug in it waters!
 
 void setup() {
     pinMode(sensorPower, OUTPUT);
@@ -42,7 +42,7 @@ void loop() {
         } else {
             Serial.println("Status: Soil is too dry - time to water!");
             digitalWrite(pump, HIGH);
-            delay(3000);
+            delay(2000);
             digitalWrite(pump, LOW);
         }
     //Set the next check time. This works in relation to the currentMillis counter.
